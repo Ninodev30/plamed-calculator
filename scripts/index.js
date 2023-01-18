@@ -20,13 +20,11 @@ const handleTable = {
     amb: () => {
         console.log('testing amb');
     },
-    cbhpm3: () => {
+    cbhpm: () => {
         console.log('testing cbhpm3');
     },
-    cbhpm4: () => {
-        console.log('testing cbhpm4');
-    },
-    cbhpm5: () => {
-        console.log('testing cbhpm5');
-    },
+};
+
+const handleCalculate = () => {
+
 };
