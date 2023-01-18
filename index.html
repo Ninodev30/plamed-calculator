@@ -18,24 +18,45 @@
         </header>
 
         <main>
-            <section>
+            <section class="table-choose">
                 <h3>
                     Tabela
                 </h3>
                 <select>
-                    <option value="amb" onclick="handleCalculate.amb()">
-                        AMB 1992
+                    <option value="amb" id='option-amb' onclick="handleTable.amb()">
+                        AMB
                     </option>
-                    <option value="cbhpm3" onclick="handleCalculate.cbhpm3()">
-                        CBHPM 3° EDIÇÃO
-                    </option>
-                    <option value="cbhpm4" onclick="handleCalculate.cbhpm4()">
-                        CBHPM 4° EDIÇÃO
-                    </option>
-                    <option value="cbhpm5" onclick="handleCalculate.cbhpm5()">
-                        CBHPM 5° EDIÇÃO
+                    <option value="cbhpm" id='option-cbhpm' onclick="handleTable.cbhpm()">
+                        CBHPM
                     </option>
                 </select>
+            </section>
+            <section class="content" id="section-amb">
+
+            </section>
+            <section class="content" id="section-cbhpm">
+                <select>
+                    <option value="cbhpm3" id="option-cbhpm-3">
+                        CBHPM 3
+                    </option>
+                    <option value="cbhpm4" id="option-cbhpm-5">
+                        CBHPM 4
+                    </option>
+                    <option value="cbhpm5" id="option-cbhpm-5">
+                        CBHPM 5
+                    </option>
+                </select>
+                <div>
+                    <div>
+                        <input type="number" id="" name="" placeholder="Porte">
+                        <input type="number" id="" name="" placeholder="UCO">
+                    </div>
+                    <div>
+                        <input type="number" id="" name="" placeholder="Filme">
+                        <input type="number" id="" name="" placeholder="Múltiplo do filme">
+                    </div>
+                    <input type="number" id="" name="" placeholder="Redutor">
+                </div>
             </section>
         </main>
     </div>

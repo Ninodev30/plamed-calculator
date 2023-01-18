@@ -29,5 +29,18 @@ header {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+}
 
+.table-choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
